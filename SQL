@@ -1,0 +1,7 @@
+create database my todo list;
+create table tasks(
+task_id int, primary key
+task_name varchar(255) , not null
+description varchar (255)
+is_completed varchar (25)
+)
